@@ -81,3 +81,43 @@ button:hover {
     margin-top: 20px;
     animation: name-fade 1.5s ease-in-out;
 }
+
+
+footer {
+    background-color: #31363F;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #76ABAE;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.github-link {
+    color: #76ABAE;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.github-link:hover {
+    color: #649b98;
+}
+
+.github-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
