@@ -1,6 +1,33 @@
-body{
+body {
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #222831;
     color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: filter 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #31363F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.calculator {
+    background-color: #222831;
+    border: 1px solid #76ABAE;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
