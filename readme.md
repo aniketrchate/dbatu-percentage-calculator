@@ -1,10 +1,10 @@
-# CGPA to Percentage Converter
+# DBATU Prcentage Calculator
 
 This web tool is designed for students of **Dr. Babasaheb Ambedkar Technological University** to easily convert their CGPA into the equivalent percentage using the official DBATU conversion formulas.
 
 ## 🛠️ **Getting Started**
 
-* 🌐 Visit the CGPA converter website at [[https://user-name.io/project-name](https://user-name.io/project-name)).
+* 🌐 Visit the CGPA converter website at [[Click Here](https://aniketrchate.github.io/dbatu-percentage-calculator/)).
 * 📥 Enter your CGPA value in the input field.
 * 🔄 Click the "Convert" button to view your equivalent percentage.
 
