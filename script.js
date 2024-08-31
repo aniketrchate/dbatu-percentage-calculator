@@ -7,13 +7,13 @@ function convertCGPA() {
     // Check if input is empty or the input is a valid number
     if (cgpaInput === '' || isNaN(cgpaValue)) {
         alert("Value cannot be empty or Invalid input.");
-        resultBox.style.display = 'none'; // Hide the result box
+        resultBox.style.display = 'none'; 
         return;
     }
     // Validate CGPA value range
     if (cgpaValue < 0 || cgpaValue > 10) {
         alert("Please enter a CGPA value between 0 and 10.");
-        resultBox.style.display = 'none'; // Hide the result box
+        resultBox.style.display = 'none'; 
         return;
     }
 
@@ -26,5 +26,5 @@ function convertCGPA() {
 // Function to clear the result box
 function clearResult() {
     const resultBox = document.getElementById('cgpaResult');
-    resultBox.style.display = 'none'; // Hide the result box
+    resultBox.style.display = 'none'; 
 }

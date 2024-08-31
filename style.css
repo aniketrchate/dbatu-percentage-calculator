@@ -82,6 +82,9 @@ button:hover {
     animation: name-fade 1.5s ease-in-out;
 }
 
+.rules-button-container {
+    margin-top: 20px;
+}
 
 footer {
     background-color: #31363F;
