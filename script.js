@@ -29,9 +29,23 @@ function clearResult() {
     resultBox.style.display = 'none'; 
 }
 
+// Function to show the popup
 function showPopup() {
     const popupOverlay = document.getElementById('popupOverlay');
     const body = document.body;
     popupOverlay.style.display = 'flex';
     body.classList.add('popup-active'); // Add class to body for blur effect
 }
+
+// Function to close the popup
+function closePopup() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    const body = document.body;
+    popupOverlay.style.display = 'none';
+    body.classList.remove('popup-active'); // Remove class from body
+}
+
+// Ensure popup is hidden on page load
+document.addEventListener('DOMContentLoaded', function() {
+    closePopup(); // Ensure popup is closed when page loads
+});

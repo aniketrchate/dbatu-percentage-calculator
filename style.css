@@ -98,6 +98,10 @@ button:hover {
     margin: 5px;
 }
 
+.rules-button:hover {
+    background-color: #649b98;
+}
+
 .popup-overlay {
     display: none;
     position: fixed;
@@ -124,6 +128,15 @@ button:hover {
     max-width: 800px;
     max-height: 100%;
     overflow-y: auto;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: #76ABAE;
+    cursor: pointer;
 }
 
 .popup-content p {
