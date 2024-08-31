@@ -10,7 +10,12 @@ function convertCGPA() {
         resultBox.style.display = 'none'; // Hide the result box
         return;
     }
-
+    // Validate CGPA value range
+    if (cgpaValue < 0 || cgpaValue > 10) {
+        alert("Please enter a CGPA value between 0 and 10.");
+        resultBox.style.display = 'none'; // Hide the result box
+        return;
+    }
 
     const cgpaResult = (cgpaValue - 0.5) * 10;
     
