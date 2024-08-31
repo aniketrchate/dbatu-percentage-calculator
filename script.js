@@ -22,3 +22,9 @@ function convertCGPA() {
     resultBox.innerHTML = `<p style="font-size: 1.2rem;">Percentage: ${cgpaResult.toFixed(2)}%</p>`;
     resultBox.style.display = 'block'; 
 }
+
+// Function to clear the result box
+function clearResult() {
+    const resultBox = document.getElementById('cgpaResult');
+    resultBox.style.display = 'none'; // Hide the result box
+}
