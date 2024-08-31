@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -171,6 +172,7 @@ body.popup-active::before {
     pointer-events: none;
 }
 
+/* Footer Styles */
 footer {
     background-color: #31363F;
     color: #EEEEEE;
@@ -208,4 +210,152 @@ footer {
     width: 24px;
     height: 24px;
     margin-right: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+
+    .calculator {
+        padding: 15px;
+    }
+
+    .university-name a {
+        font-size: 2.5rem;
+    }
+
+    .cgpa-convert {
+        font-size: 0.9rem;
+    }
+
+    .output-box {
+        padding: 8px;
+    }
+
+    input[type="number"] {
+        max-width: 150px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    .rules-button {
+        font-size: 1.1rem;
+    }
+
+    .popup-content {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .university-name a {
+        font-size: 2rem;
+    }
+
+    .calculator {
+        margin: 10px 0;
+    }
+
+    .cgpa-convert {
+        font-size: 0.8rem;
+    }
+
+    button {
+        padding: 8px 14px;
+    }
+
+    .rules-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .university-name a {
+        font-size: 1.8rem;
+    }
+
+    .calculator {
+        padding: 10px;
+    }
+
+    .cgpa-convert {
+        font-size: 0.75rem;
+    }
+
+    input[type="number"] {
+        max-width: 120px;
+    }
+
+    button {
+        padding: 7px 12px;
+    }
+
+    .rules-button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+
+    .university-name a {
+        font-size: 1.5rem;
+    }
+
+    .calculator {
+        padding: 8px;
+    }
+
+    .cgpa-convert {
+        font-size: 0.7rem;
+    }
+
+    input[type="number"] {
+        max-width: 100px;
+    }
+
+    button {
+        padding: 6px 10px;
+    }
+
+    .rules-button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .university-name a {
+        font-size: 1.2rem;
+    }
+
+    .calculator {
+        padding: 6px;
+    }
+
+    .cgpa-convert {
+        font-size: 0.65rem;
+    }
+
+    input[type="number"] {
+        max-width: 80px;
+    }
+
+    button {
+        padding: 5px 8px;
+    }
+
+    .rules-button {
+        font-size: 0.7rem;
+    }
 }

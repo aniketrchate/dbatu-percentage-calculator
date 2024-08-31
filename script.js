@@ -14,9 +14,9 @@ function convertCGPA() {
     if (cgpaValue < 0 || cgpaValue > 10) {
         alert("Please enter a CGPA value between 0 and 10.");
         resultBox.style.display = 'none'; 
-        return;
     }
 
+    // Convert CGPA to percentage
     const cgpaResult = (cgpaValue - 0.5) * 10;
     resultBox.innerHTML = `<p style="font-size: 1.2rem;">Percentage: ${cgpaResult.toFixed(2)}%</p>`;
     resultBox.style.display = 'block'; 
@@ -25,14 +25,15 @@ function convertCGPA() {
 // Function to clear the result box
 function clearResult() {
     const resultBox = document.getElementById('cgpaResult');
-    resultBox.style.display = 'none';
+    resultBox.style.display = 'none'; 
 }
+
 // Function to show the popup
 function showPopup() {
     const popupOverlay = document.getElementById('popupOverlay');
     const body = document.body;
     popupOverlay.style.display = 'flex';
-    body.classList.add('popup-active'); 
+    body.classList.add('popup-active');
 }
 
 // Function to close the popup
@@ -43,6 +44,7 @@ function closePopup() {
     body.classList.remove('popup-active'); 
 }
 
+// Ensure popup is hidden on page load
 document.addEventListener('DOMContentLoaded', function() {
     closePopup(); 
 });
