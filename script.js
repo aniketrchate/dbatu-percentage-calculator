@@ -28,3 +28,10 @@ function clearResult() {
     const resultBox = document.getElementById('cgpaResult');
     resultBox.style.display = 'none'; 
 }
+
+function showPopup() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    const body = document.body;
+    popupOverlay.style.display = 'flex';
+    body.classList.add('popup-active'); // Add class to body for blur effect
+}
