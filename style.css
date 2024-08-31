@@ -32,6 +32,15 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+.calculator:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.cgpa-convert {
+    font-size: 1rem;
+}
+
 .output-box {
     background-color: #31363F;
     border: 1px solid #76ABAE;
@@ -59,6 +68,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #649b98;
 }
 
 .university-name a {
